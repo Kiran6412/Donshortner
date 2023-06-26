@@ -31,15 +31,15 @@ user_commands = [
     "me",
 ]
 avl_web = [
-    "droplink.co",
-    "gplinks.in",
-    "tnlink.in",
-    "za.gl",
-    "du-link.in",
-    "viplink.in",
-    "shorturllink.in",
-    "shareus.in",
-    "earnspace.in",
+    "tulinks.online",
+    "tulinks.one",
+    "tulinks.online",
+    "tulinks.online",
+    "tulinks.online",
+    "tulinks.online",
+    "tulinks.online",
+    "tulinks.online",
+    "tulinks.online",
 ]
 
 avl_web1 = "".join(f"- {i}\n" for i in avl_web)
@@ -327,7 +327,7 @@ async def base_site_handler(bot, m: Message):
     user = await get_user(user_id)
     cmd = m.command
     site = user["base_site"]
-    text = f"`/base_site (base_site)`\n\nCurrent base site: {site}\n\n EX: `/base_site shareus.in`\n\nAvailable base sites:\n{avl_web1}\nAnd All alternate sites to droplink.co"
+    text = f"`/base_site (base_site)`\n\nCurrent base site: {site}\n\n EX: `/base_site tulinks.online`\n\nAvailable base sites:\n{avl_web1}\nAnd All alternate sites to tulinks.online"
     if len(cmd) == 1:
         return await m.reply(text=text, disable_web_page_preview=True)
     elif len(cmd) == 2:
