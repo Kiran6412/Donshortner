@@ -13,9 +13,11 @@ I'll handle the rest and get those links shortened or converted in a short time!
 
 START_MESSAGE = """Hi there {} 
 
-Send me a link or post and I'll shorten it for you!
+To add or update your tulinks shortner api see example 👇👇
 
-To learn more about what I can do, just type /help.
+/shortener_api 6LZq851sXofffPHugiKQq
+
+For adding footer write your footer text and then reply your footer text with /footer
 
 Method: {}
 Shortener website: {}
@@ -48,9 +50,9 @@ ABOUT_TEXT = """
     
 `📝 Language:` [Python 3](https://www.python.org/)
 `🧰 Framework:` [Pyrogram](https://github.com/pyrogram/pyrogram)
-`👨‍💻 Developer:` [Dev](t.me/ask_admin001)
-`📢 Support:` [Talk Bot](https://t.me/ask_admin001)
-`🌐 Source Code:` [GitHub](https://github.com/kevinnadar22/URL-Shortener-V2/)
+`👨‍💻 Developer:` [Dev](https://t.me/tulinks_official)
+`📢 Support:` [Talk Bot](https://t.me/tulinks_official)
+`🌐 Source Code:` [GitHub](https://t.me/tulinks_official)
 """
 
 
